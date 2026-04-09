@@ -1,7 +1,7 @@
 const { httpGet } = require('./mock-http-interface');
 
 /**
- * Executes a HTTP GET request on each of the URLs, transforms each of the HTTP responses according to the challenge instructions and returns the results.
+ * Executes a HTTP GET request on each of the URLs, transforms each of the HTTP responses into an internal object format.
  *
  * @param {string[]} urls The urls to be requested
  * @return {Promise} A promise which resolves to a results array.
